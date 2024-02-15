@@ -9,9 +9,12 @@ a {
 .container {
     width: 1158px;
     padding: 0 15px;
-    padding: 120px 0;
     margin-bottom: 0;
     display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
 }
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -37,6 +40,7 @@ ul {
     border-bottom: 1px solid #e7e9fc;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
 .navigation {
     display: flex;
@@ -59,6 +63,7 @@ ul {
  font-weight: 700;
  font-size: 18px;
  color: #2e2f42;
+ gap: 76px;
 }
 .meny {
     display: flex;
@@ -85,6 +90,10 @@ ul {
     font-style: normal;
     display: flex;
 }
+.address-title {
+    display: flex;
+    gap: 40px;
+}
 .title-address {
  font-style: normal;
  letter-spacing: 0.02em;
@@ -105,14 +114,17 @@ ul {
     padding: 120px 0;
     display: flex;
 }
+.div-main-page-descr {
+
+}
 .main-page-description {
     display: flex;
+    flex-wrap: nowrap;
     gap: 24px;
     margin-right: 0;
 }
 .main-page {
     margin-right: 24px;
-    padding: 120px 0;
     width: calc((100% - 72px) / 4);
 }
 .main-page-descr{
@@ -144,6 +156,10 @@ ul {
  color: #ffffff;
  max-width: 496px;
 }
+.button {
+    text-align: center;
+}
+
 .button-order-service {
  min-width: 169px;
  height: 56px;
@@ -168,7 +184,7 @@ ul {
 
 .team{
     background-color: #F4F4FD;
-    padding: 120px 0;
+    padding: 120px 15px;
 }
 .title-our-team{
  margin-bottom: 72px;
@@ -211,8 +227,8 @@ ul {
  color: #434455;
 }
 .portfolio {
- padding-top: 120px;
- padding-bottom: 120px;
+ padding: 120px 0;
+ 
 }
 .title-port {
     width: 218px;
@@ -227,19 +243,19 @@ ul {
  font-size: 36px;
  line-height: 1.11111;
  color: #2e2f42;
+ text-align: center;
 }
 .portfolio-img {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    margin-bottom: 0;
+ display: flex;
+ flex-wrap: wrap;
+ column-gap: 24px;
+ row-gap: 48px;
+ margin-bottom: 0;
 }
 .portfolio-element {
  border: 1px solid #e7e9fc;
  width: calc((100% - 48px) / 3);
- padding-top: 120px;
- padding-bottom: 120px;
+ padding: 120px 0;
  background-color: #fff;
 
 }
@@ -272,7 +288,7 @@ ul {
 }
 .footer-p {
     display: flex;
-
+    margin-bottom: 16px;
 }
 .logo-web {
  font-family: "Raleway", sans-serif;
